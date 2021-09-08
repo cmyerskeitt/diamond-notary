@@ -22,11 +22,17 @@ class Contact extends React.Component{
         this.setState({message: e.target.value})
     }
 
+    handleSubmit = (e) => {
+        alert('Your message was forwarded to Diamond Notary LLC. We will contact you within 2 business days!')
+        e.preventDefault()
+        console.log(this.state)
+    }
+
 
     render(){
         return (
             <div>
-                <form id='contact-form'>
+                <form id='contact-form' onSubmit={this.handleSubmit}>
                     <div>
                         <label> Name </label>
                         <input type="text" value={this.state.name} onChange={this.handleNameChange}/>
