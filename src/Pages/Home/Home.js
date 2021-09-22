@@ -1,10 +1,14 @@
 import React from "react"
 import Pricelist from "./Pricelist";
+import Headshot from './Headshot1.jpg'
 
 function Home(){
     
      return (
-        <Pricelist />    
+       <>
+        <img src={Headshot} className='headshot' alt='Headshot'/>
+        <Pricelist />  
+      </> 
   );
 }
 
