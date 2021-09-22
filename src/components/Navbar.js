@@ -32,7 +32,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img src={Logo} height={100} width={200} alt='Diamond Notary'/>
+                        <img src={Logo} height={150} width={250} alt='Diamond Notary'/>
                         {/* Diamond Notary */}
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
