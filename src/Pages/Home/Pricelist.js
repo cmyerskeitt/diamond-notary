@@ -1,6 +1,6 @@
 import React from "react"
 import {useTable} from 'react-table'
-import { columns, data } from '../dataSource'
+import { columns, data } from './dataSource'
 
 function Pricelist(){
     const {

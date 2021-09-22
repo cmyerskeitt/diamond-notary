@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from "react-router-dom"
 import './Navbar.css'
+import Logo from '../images/DiamondNotary.png'
+
 
 function Navbar() {
 
@@ -30,7 +32,8 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        Diamond Notary
+                        <img src={Logo} height={100} width={200} alt='Diamond Notary'/>
+                        {/* Diamond Notary */}
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fa-times' : 'fas fa-bars'}/>
