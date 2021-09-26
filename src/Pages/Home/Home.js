@@ -9,7 +9,8 @@ function Home(){
        <>
         <h1 className='welcome'> Welcome to Diamond Notary LLC.</h1>
         <img src={Headshot} className='headshot' alt='Headshot'/>
-        {/* <Pricelist/>   */}
+        <br></br>
+        <Pricelist/>  
       </> 
   );
 }

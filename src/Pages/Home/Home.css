@@ -1,5 +1,5 @@
-.headshot {
-    width: 25%;
+ .headshot {
+    width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 100%;
@@ -26,9 +26,35 @@
     margin-bottom: 0px; 
     margin-top: 40px; 
     text-align: center; 
-    text-shadow: 0 1px 1px #fff; 
-
-
+    text-shadow: 0 1.5px 1.5px black; 
 }
+
+.table{
+    position: absolute;
+    text-align: center;
+    top: 125%;
+
+    font-family: "Great Vibes", cursive; 
+    font-size: 30px; 
+}
+
+.priceheader {
+    width: 100%;
+    background-color: lightslategray;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: -80%;
+    text-align: center;
+    color: lightgreen; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 100px; 
+    line-height: 120px; 
+    font-weight: normal; 
+    margin-bottom: 0px; 
+    margin-top: 40px; 
+    text-align: center; 
+    text-shadow: 0 1.5px 1.5px black; 
+} 
 
 
