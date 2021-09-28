@@ -21,7 +21,7 @@ function Pricelist(){
             <h2 className='priceheader'> Pricing List </h2>
             <section className=''>
                 <table {...getTableProps()}>
-                    <thead>
+                    <thead className='tableheader'>
                         {/* loop over the header rows */}
                         {headerGroups.map(headerGroup => (
                             // apply the header row props

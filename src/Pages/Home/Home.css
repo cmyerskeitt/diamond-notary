@@ -53,13 +53,17 @@
     color: lightgreen; 
     font-family: "Great Vibes", cursive; 
     font-size: 100px; 
-    /* line-height: 120px;  */
+    line-height: 120px; 
     font-weight: normal; 
     margin-top: 20px; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
    
 } 
+
+.tableheader{
+    background-color: white;
+}
 
 @media screen and (max-width: 960px) {
 }  
