@@ -6,7 +6,7 @@
     height: auto;
     border-radius: 50%;
     position: absolute;
-    top: 65%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -26,38 +26,40 @@
     font-weight: normal; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
-    /* margin-bottom: 0px; 
-    margin-top: 40px;  */
-    /* Space between navbar and content */
 }
 
 .table{
     position: absolute;
     text-align: center;
-    top: 125%;
-
+    max-width: 100%;
+    height: auto;
     font-family: "Great Vibes", cursive; 
-    font-size: 30px; 
+    background-color: lightgreen;
+    font-size: 20px; 
+    top: 110%;
+    right: 35%;
+    padding: 40px;
 }
 
-/* .priceheader {
+.priceheader {
     width: 100%;
     background-color: lightslategray;
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: -80%;
+    top: -50%;
+    right: 0%;
     text-align: center;
     color: lightgreen; 
     font-family: "Great Vibes", cursive; 
     font-size: 100px; 
-    line-height: 120px; 
+    /* line-height: 120px;  */
     font-weight: normal; 
-    margin-bottom: 0px; 
-    margin-top: 40px; 
+    margin-top: 20px; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
+   
 } 
 
 @media screen and (max-width: 960px) {
-}   */
+}  
