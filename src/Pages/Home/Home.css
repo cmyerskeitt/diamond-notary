@@ -1,20 +1,27 @@
- .headshot {
+ /* .headshot {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 100%;
-    width: auto\9; /* ie8 */
+    width: auto\9; 
     height: auto;
     border-radius: 50%;
     position: absolute;
     top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}  */
 
+.logo {
+    height: auto;
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 30%;
+    left: 27%;
+}
 .welcome {
     width: auto\9; 
     width: 100%;
-    background-color: lightslategray;
+    background-color: gray;
     max-width: 100%;
     height: auto;
     position: absolute;
@@ -36,14 +43,14 @@
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
     font-size: 20px; 
-    top: 110%;
+    top: 108%;
     right: 35%;
     padding: 40px;
 }
 
 .priceheader {
     width: 100%;
-    background-color: lightslategray;
+    background-color: gray;
     max-width: 100%;
     height: auto;
     position: absolute;
