@@ -42,19 +42,21 @@
     height: auto;
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
-    font-size: 20px; 
+    font-size: 25px; 
     top: 108%;
     right: 35%;
     padding: 40px;
+    border-radius: 20px;
 }
 
 .priceheader {
     width: 100%;
+    border-radius: 20px;
     background-color: gray;
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: -50%;
+    top: -40%;
     right: 0%;
     text-align: center;
     color: lightgreen; 
