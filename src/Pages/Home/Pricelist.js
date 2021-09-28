@@ -18,8 +18,8 @@ function Pricelist(){
      return (
         <div className='table'>
             {/* //apply the table props */}
-            <h2 className='priceheader'> Pricing List </h2>
             <section className=''>
+            <h2 className='priceheader'> Pricing List </h2>
                 <table {...getTableProps()}>
                     <thead className='tableheader'>
                         {/* loop over the header rows */}

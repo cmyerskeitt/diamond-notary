@@ -65,5 +65,20 @@
     background-color: white;
 }
 
+.notaryBadge{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    
+
+}
+
+.trainedBadge{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+
 @media screen and (max-width: 960px) {
 }  
