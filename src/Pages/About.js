@@ -8,7 +8,7 @@ class About extends React.Component{
      return (
        
         <div>
-            <h1>About Deyonna Roberts!</h1>
+            <h1 className="welcome">About Deyonna Roberts!</h1>
             <img src={Headshot} className='headshot' alt='Headshot'/>
             <br></br>
             <ul>
