@@ -1,4 +1,6 @@
 import React from "react"
+import Headshot from './Headshot1.jpg'
+import './About.css'
 
 class About extends React.Component{
   
@@ -7,6 +9,7 @@ class About extends React.Component{
        
         <div>
             <h1>About Deyonna Roberts!</h1>
+            <img src={Headshot} className='headshot' alt='Headshot'/>
             <br></br>
             <ul>
                 <li>Notary for over 7 years ( MD)</li>
