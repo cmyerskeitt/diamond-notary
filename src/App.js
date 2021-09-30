@@ -5,7 +5,7 @@ import './App.css'
 import Home from './Pages/Home/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
-import Reviews from './Pages/Reviews'
+import Pricing from './Pages/Pricing'
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
           <Route exact path='/contact' >
             <Contact />
           </Route>
-          <Route exact path='/reviews' >
-            <Reviews />
+          <Route exact path='/pricing' >
+            <Pricing />
           </Route>
         </Switch>
 
