@@ -1,6 +1,4 @@
 import React from "react"
-import Pricelist from "./Pricelist";
-
 import NSA_Badge from './nsa_member_badge.png'
 import NSA_Trained_Badge from './nsa-trained-badge.png'
 import './Home.css'
@@ -15,7 +13,7 @@ function Home(){
         <img src={Logo} className='logo' alt='Logo'/>
         <img src={NSA_Trained_Badge} className='trainedBadge' alt='NSA Trained Badge'/>
         <br></br>
-        <Pricelist/>  
+       
       </> 
   );
 }

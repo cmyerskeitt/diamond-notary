@@ -1,45 +1,38 @@
-
-
-.logo {
-    height: auto;
-    /* border-radius: 50%; */
+.table{
     position: absolute;
-    top: 30%;
-    left: 27%;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    font-family: "Great Vibes", cursive; 
+    background-color: lightgreen;
+    font-size: 25px; 
+    top: 108%;
+    right: 33%;
+    padding: 40px;
     border-radius: 20px;
 }
-.welcome {
-    width: auto\9; 
+
+.priceheader {
     width: 100%;
+    border-radius: 20px;
     background-color: gray;
     max-width: 100%;
     height: auto;
     position: absolute;
+    top: -40%;
+    right: 0%;
     text-align: center;
     color: lightgreen; 
     font-family: "Great Vibes", cursive; 
     font-size: 100px; 
     line-height: 120px; 
     font-weight: normal; 
+    margin-top: 20px; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
+   
+} 
+
+.tableheader{
+    background-color: white;
 }
-
-
-.notaryBadge{
-    position: absolute;
-    top: 40%;
-    right: 10%;
-    
-
-}
-
-.trainedBadge{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-}
-
-
-@media screen and (max-width: 960px) {
-}  
