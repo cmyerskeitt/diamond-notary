@@ -6,7 +6,7 @@
     height: auto;
     border-radius: 50%;
     position: absolute;
-    top: 56%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
@@ -26,4 +26,18 @@
     font-weight: normal; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
+}
+
+.credentials {
+    position: absolute;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+    font-family: "Great Vibes", cursive; 
+    background-color: lightgreen;
+    font-size: 25px; 
+    top: 110%;
+    right: 30%;
+    padding: 40px;
+    border-radius: 20px; 
 }

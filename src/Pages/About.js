@@ -11,7 +11,7 @@ class About extends React.Component{
             <h1 className="welcome">About Deyonna Roberts!</h1>
             <img src={Headshot} className='headshot' alt='Headshot'/>
             <br></br>
-            <ul>
+            <ul className='credentials'>
                 <li>Notary for over 7 years ( MD)</li>
                 <li>Licensed Title Producer (MD- TIPIC)</li>
                 <li>Licensed Title Producer (MD- TIPIC)</li>

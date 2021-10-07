@@ -26,6 +26,9 @@ class Contact extends React.Component{
         alert('Your message was forwarded to Diamond Notary LLC. We will contact you within 2 business days!')
         e.preventDefault()
         console.log(this.state)
+        
+
+         
     }
 
 
