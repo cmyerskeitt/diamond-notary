@@ -40,6 +40,21 @@
     left: 10%;
 }
 
+.info {
+    top: 95%;
+    background-color: gray;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    color: lightgreen; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 40px; 
+    line-height: 50px; 
+    font-weight: normal; 
+    text-align: center; 
+    text-shadow: 0 1.5px 1.5px black; 
+}
 
 @media screen and (max-width: 960px) {
 }  
