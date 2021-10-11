@@ -6,7 +6,7 @@
   }
   
   .home,
-  .reviews,
+  .pricing,
   .about,
   .contact {
     display: flex;
@@ -16,7 +16,7 @@
     font-size: 3rem;
   }
   
-  .reviews {
+  .pricing {
     /* addimage  */
     background-position: center;
     background-size: cover;

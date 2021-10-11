@@ -1,4 +1,5 @@
 import React from "react"
+import './Contact.css'
 
 class Contact extends React.Component{
     constructor(){
@@ -35,6 +36,7 @@ class Contact extends React.Component{
     render(){
         return (
             <div>
+                <h1 className='welcome'> Contact Diamond Notary DMV, LLC.</h1>
                 <form id='contact-form' onSubmit={this.handleSubmit}>
                     <div>
                         <label> Name </label>
