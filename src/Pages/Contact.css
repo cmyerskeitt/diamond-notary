@@ -7,7 +7,29 @@
     background-color: lightgreen;
     font-size: 25px; 
     top: 70%;
-    right: 35%;
+    right: 10%;
     padding: 40px;
     border-radius: 20px;
+}
+
+.form-message {
+    width: 1000px;
+    height: 500px;
+    font-size: 25px; 
+}
+
+.form-email {
+    width: 500px;
+    height: 50px;
+    font-size: 25px; 
+}
+
+.form-name {
+    width: 500px;
+    height: 50px;
+    font-size: 25px; 
+}
+
+.form-submit {
+    font-size: 25px; 
 }
