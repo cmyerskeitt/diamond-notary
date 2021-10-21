@@ -6,7 +6,7 @@
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
     font-size: 25px; 
-    top: 60%;
+    top: 47%;
     right: 28%;
     padding: 40px;
     border-radius: 20px;
@@ -24,13 +24,12 @@
     text-align: center;
     color: lightgreen; 
     font-family: "Great Vibes", cursive; 
-    font-size: 100px; 
+    font-size: 80px; 
     line-height: 120px; 
     font-weight: normal; 
     margin-top: 20px; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
-   
 } 
 
 .tableheader{
