@@ -6,7 +6,7 @@
     height: auto;
     border-radius: 50%;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
@@ -36,7 +36,7 @@
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
     font-size: 25px; 
-    top: 110%;
+    top: 820px;
     left: 15%;
     padding: 40px;
     border-radius: 20px; 
