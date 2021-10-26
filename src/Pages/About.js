@@ -11,17 +11,20 @@ class About extends React.Component{
             <h1 className="welcome">About Deyonna Roberts!</h1>
             <img src={Headshot} className='headshot' alt='Headshot'/>
             <br></br>
-            <ul className='credentials'>
-                <li>Notary for over 7 years ( MD)</li>
-                <li>Licensed Title Producer (MD- TIPIC)</li>
-                <li>Licensed Title Producer (MD- TIPIC)</li>
-                <li>5 years experience notarizing banking, real estate and property management documents.</li>
-                <li>Completed over 200 signings</li> 
-                <li>E&O insurance of 50,00</li>
-                <li>Background Check passed</li>
-                <li>Local Black Woman owned business</li>
-            </ul>
-
+            <section className='credentials'> 
+                <h2> <center> Meet Your Notary Specialist</center></h2>
+                <br></br>
+                <ul>
+                    <li>Notary for over 7 years ( MD)</li>
+                    <li>Licensed Title Producer (MD- TIPIC)</li>
+                    <li>Licensed Title Producer (MD- TIPIC)</li>
+                    <li>5 years experience notarizing banking, real estate and property management documents.</li>
+                    <li>Completed over 200 signings</li> 
+                    <li>E&O insurance of 50,000</li>
+                    <li>Background Check passed</li>
+                    <li>Local Black Woman owned business</li>
+                </ul>
+            </section>
         </div> 
     
         )

@@ -2,11 +2,11 @@
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 100%;
-    width: auto\9; 
+    width: 20%; 
     height: auto;
     border-radius: 50%;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 } 
@@ -36,8 +36,8 @@
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
     font-size: 25px; 
-    top: 820px;
+    top: 750px;
     left: 15%;
-    padding: 40px;
+    padding: 30px;
     border-radius: 20px; 
 }
