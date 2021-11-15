@@ -8,7 +8,12 @@ class Pricing extends React.Component{
      return (
        
         <div>
-        <Pricelist/>  
+        <h1 className='priceheader'>Diamond Notary DMV Pricing </h1>
+        <Pricelist/> 
+            <div className="payment"> 
+                Accepted Methods of Payment: <br></br>
+                Cash, Venmo, Cashapp, and Zelle 
+            </div>
         </div> 
         )
     }
