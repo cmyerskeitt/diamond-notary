@@ -59,6 +59,8 @@ class Contact extends React.Component{
                     </div>
                     <br>
                     </br>
+                    <label> All inquiries are being forwarded to diamondnotarydmv@gmail.com </label>
+                    <br/>
                     <button type='submit' className='form-submit'>Submit</button>
                 </form>
 
