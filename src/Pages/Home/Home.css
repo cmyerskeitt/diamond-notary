@@ -52,10 +52,21 @@
     font-weight: normal; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
+    padding: 55px;
+}
+
+.info1{
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 27%;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Great Vibes", cursive; 
 }
 
 .hours {
-    top: 150%;
+    top: 180%;
     left: 35%;
     background-color: gray;
     max-width: 100%;
