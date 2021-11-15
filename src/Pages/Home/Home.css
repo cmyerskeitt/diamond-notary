@@ -2,7 +2,6 @@
 
 .logo {
     height: 500px;
-    /* border-radius: 50%; */
     position: absolute;
     top: 50%;
     left: 30%;
@@ -53,6 +52,25 @@
     font-weight: normal; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px black; 
+}
+
+.hours {
+    top: 150%;
+    left: 35%;
+    background-color: gray;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    color: lightgreen; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 40px; 
+    line-height: 50px; 
+    font-weight: normal; 
+    text-align: center; 
+    text-shadow: 0 1.5px 1.5px black; 
+    padding: 20px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 960px) {
